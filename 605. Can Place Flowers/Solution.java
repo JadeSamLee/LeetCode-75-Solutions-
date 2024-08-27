@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
     public boolean canPlaceFlowers(int[] bed, int numFlowers) {
         int placed = 0;
         for (int i = 0; i < bed.length; i++) {
